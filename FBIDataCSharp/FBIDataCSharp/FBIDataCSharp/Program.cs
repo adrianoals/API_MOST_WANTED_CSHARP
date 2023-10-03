@@ -13,7 +13,7 @@ namespace FBIDataCSharp
 {
     class Program
     {
-        static string connectionString = "User Id=RM95667;Password=281088;Data Source=oracle.fiap.com.br:1521/ORCL";
+        static string connectionString = "User Id=xxxxx;Password=xxxxxx;Data Source=oracle.fiap.com.br:1521/ORCL";
         static void Main(string[] args)
         {
             CriarTabelaNoOracle<FBIClass.Item>(FBIClass.tableName);
